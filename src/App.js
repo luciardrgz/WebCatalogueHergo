@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Products from './sections/Products';
+import Slider from './components/Slider';
+import {slides} from './utils/constants';
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <Slider slides={slides} />
+      <Products />
+    </div>
   );
 }
 
