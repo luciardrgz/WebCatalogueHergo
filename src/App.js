@@ -1,16 +1,16 @@
 import Products from './sections/Products';
-import Slider from './components/Slider';
-import {slides} from './utils/constants';
 import About from './sections/About';
 import Nav from './components/Nav';
 import Login from './sections/Login';
+import Home from './sections/Home';
+import { lastProducts } from './utils/constants';
 
 function App() {
   return (
     <div>
       <Nav />
+      <Home lastProducts={lastProducts}/>
       <Login />
-      <Slider slides={slides} />
       <Products />
       <About/>
     </div>
