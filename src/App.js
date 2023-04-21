@@ -3,8 +3,10 @@ import About from './sections/About';
 import Nav from './components/Nav';
 import Login from './sections/Login';
 import Home from './sections/Home';
+import Contact from './sections/Contact';
 import { lastProducts } from './utils/constants';
 import { companyInfo } from './utils/constants';
+import { products } from './utils/constants';
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
       <Home lastProducts={lastProducts}/>
       <About companyInfo={companyInfo}/>
       <Login />
-      <Products />
+      <Products products={products} />
+      <Contact />
     </div>
   );
 }

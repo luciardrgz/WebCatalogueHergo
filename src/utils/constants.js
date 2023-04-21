@@ -46,3 +46,36 @@ export const slides = [
       description: 'Trabajamos arduamente a diario para ofrecer a nuestros clientes la mejor atención en un salón siempre limpio, ordenado y abastecido. Somos uno de los referentes comerciales zonales más importantes del rubro.'
     },
   ];
+
+  export const products = [
+    {
+      title: 'Detergente',
+      image: 'https://www.hergo.com.ar/img/hergui-chico.png',
+      description: 'Lorem ipsum en formato de 500ml.',
+      price: 400
+    },
+    {
+      title: 'Puré de Tomate',
+      image: 'https://www.hergo.com.ar/img/hergui-chico.png',
+      description: 'Lorem ipsum en lata de aluminio',
+      price: 170
+    },
+    {
+      title: 'Arvejas',
+      image: 'https://www.hergo.com.ar/img/hergui-chico.png',
+      description: 'Lorem ipsum en envase pet que se puede reciclar de muchas formas',
+      price: 150
+    },
+    {
+      title: 'Leche',
+      image: 'https://www.hergo.com.ar/img/hergui-chico.png',
+      description: 'Lorem ipsum en sachet de 1L, ultrapasteurizada y descremada',
+      price: 200
+    },
+    {
+      title: 'Shampoo Sedal (de palta y coco)',
+      image: 'https://www.hergo.com.ar/img/hergui-chico.png',
+      description: 'Lorem ipsum en sachet de lorem ipsum con distribución en zonas alejadas del centro de la ciudad',
+      price: 600
+    },
+  ];
