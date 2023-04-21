@@ -1,9 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-  faTimes,
-  faRightFromBracket,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes, faRightFromBracket} from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 
 const Nav = () => {
@@ -14,8 +10,8 @@ const Nav = () => {
   };
 
   return (
-    <nav className="shadow-xl relative select-none bg-grey lg:flex lg:items-stretch w-full">
-      <div className="flex flex-no-shrink items-stretch h-12">
+    <nav className="fixed top-0 left-0 right-0 z-50 shadow-xl bg-white lg:flex">
+      <div className="flex flex-no-shrink items-stretch h-12 ">
         <img
           src="assets/logo.svg"
           alt="Hergo Logo"
