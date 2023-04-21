@@ -1,3 +1,5 @@
+import { faSignsPost, faAward, faClock, faTruck } from "@fortawesome/free-solid-svg-icons";
+
 export const slides = [
     { url: 'https://px.fotos.cdn.0223.com.ar/f/012020/1579646250452.jpg' },
     { url: 'https://quedigital.com.ar/web/wp-content/uploads/2016/03/HERGO-001-1200x675.jpg' },
@@ -20,4 +22,27 @@ export const slides = [
       url: 'https://i.ytimg.com/vi/sqaKUEmlB-4/maxresdefault.jpg',
       price: 7300
     }
+  ];
+
+  export const companyInfo = [
+    {
+      title: 'Días y horarios',
+      icon: faClock,
+      description: 'Lunes a sábados de 8 a 13 hs. Días festivos y feriados consultar.'
+    },
+    {
+      title: 'Espacio',
+      icon: faSignsPost,
+      description: 'Salón de Ventas de 6500 m² y 1500 m disponibles para operaciones de carga y descarga. También contamos con 8.000 m² para la operación del centro logístico y de distribución, un total de 16.000 m² sobre Ruta 88.'
+    },
+    {
+      title: 'Distribución y logística',
+      icon: faTruck,
+      description: 'Dos preventas interrelacionadas comandadas por un grupo interdisciplinario a través de las cuales abastecemos, de manera integral, más de 1.000 comercios de Mar del Plata y zona a diario.'
+    },
+    {
+      title: 'Calidad',
+      icon: faAward,
+      description: 'Trabajamos arduamente a diario para ofrecer a nuestros clientes la mejor atención en un salón siempre limpio, ordenado y abastecido. Somos uno de los referentes comerciales zonales más importantes del rubro.'
+    },
   ];
