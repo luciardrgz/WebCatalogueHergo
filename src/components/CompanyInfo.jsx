@@ -1,16 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShop } from "@fortawesome/free-solid-svg-icons";
 
-const CompanyInfo = () => (
-  <div className="w-full md:w-6/12 px-4 border  bg-hergo-blue rounded-lg">
-    <div className="flex flex-col mt-4"> 
-      <div className="px-4 py-5 flex-auto">
-        <FontAwesomeIcon icon={faShop} class="w-12 h-12 mb-5 p-3 text-center text-black rounded-full shadow-lg bg-white rounded-full" />
-        <h6 className="text-lg font-semibold mb-1 text-white">Direccion</h6>
-        <p className="mb-4 text-white">Magallanes y ruta 88 a 600 metros de Champagnat y de Juan B. Justo </p>
-      </div>
+const CompanyInfo = ({ info }) => (
+    <div className="w-full p-4 md:w-100 bg-hergo-blue rounded-lg">
+      <FontAwesomeIcon
+        icon={info.icon}
+        class="w-10 h-10 mb-2 p-2 text-center text-white rounded-full shadow-lg bg-hergo-red rounded-full"
+      />
+      <h6 className="text-base md:text-[1.5em] lg:text-[1.5em] font-extrabold mb-1 text-white leading-tight">
+        {info.title}
+      </h6>
+      <p className="mb-4 text-md text-white" style={{ minHeight: "4em" }}>
+        {info.description}
+      </p>
     </div>
-  </div>
 );
 
 export default CompanyInfo;
